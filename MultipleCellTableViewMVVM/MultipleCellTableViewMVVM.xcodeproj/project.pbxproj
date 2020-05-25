@@ -13,6 +13,15 @@
 		658C533E247BEF2900AEA8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658C533C247BEF2900AEA8C2 /* LaunchScreen.storyboard */; };
 		658C5347247BEF7500AEA8C2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5346247BEF7500AEA8C2 /* HomeViewController.swift */; };
 		658C5349247BF0BA00AEA8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658C5348247BF0BA00AEA8C2 /* Main.storyboard */; };
+		658C534C247BF1DC00AEA8C2 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C534B247BF1DC00AEA8C2 /* Extension+.swift */; };
+		658C534F247BF5F800AEA8C2 /* ServerJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 658C534E247BF5F800AEA8C2 /* ServerJson.json */; };
+		658C5352247BF65F00AEA8C2 /* ProfileModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5351247BF65F00AEA8C2 /* ProfileModal.swift */; };
+		658C5355247C26D500AEA8C2 /* ProfileViewModalName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5354247C26D500AEA8C2 /* ProfileViewModalName.swift */; };
+		658C5357247C313600AEA8C2 /* ProfileViewModalAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5356247C313600AEA8C2 /* ProfileViewModalAbout.swift */; };
+		658C5359247C31A500AEA8C2 /* ProfieViewModalEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5358247C31A500AEA8C2 /* ProfieViewModalEmail.swift */; };
+		658C535B247C321800AEA8C2 /* ProfileViewModalAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C535A247C321800AEA8C2 /* ProfileViewModalAttribute.swift */; };
+		658C535D247C32C600AEA8C2 /* ProfileViewModalFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C535C247C32C600AEA8C2 /* ProfileViewModalFriends.swift */; };
+		658C5361247C33B500AEA8C2 /* ProfileViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5360247C33B500AEA8C2 /* ProfileViewModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		658C533F247BEF2900AEA8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		658C5346247BEF7500AEA8C2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		658C5348247BF0BA00AEA8C2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		658C534B247BF1DC00AEA8C2 /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
+		658C534E247BF5F800AEA8C2 /* ServerJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ServerJson.json; sourceTree = "<group>"; };
+		658C5351247BF65F00AEA8C2 /* ProfileModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModal.swift; sourceTree = "<group>"; };
+		658C5354247C26D500AEA8C2 /* ProfileViewModalName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModalName.swift; sourceTree = "<group>"; };
+		658C5356247C313600AEA8C2 /* ProfileViewModalAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModalAbout.swift; sourceTree = "<group>"; };
+		658C5358247C31A500AEA8C2 /* ProfieViewModalEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfieViewModalEmail.swift; sourceTree = "<group>"; };
+		658C535A247C321800AEA8C2 /* ProfileViewModalAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModalAttribute.swift; sourceTree = "<group>"; };
+		658C535C247C32C600AEA8C2 /* ProfileViewModalFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModalFriends.swift; sourceTree = "<group>"; };
+		658C5360247C33B500AEA8C2 /* ProfileViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,10 @@
 		658C5330247BEF2600AEA8C2 /* MultipleCellTableViewMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				658C5362247C392900AEA8C2 /* Views */,
+				658C5353247C00E000AEA8C2 /* ViewModal */,
+				658C5350247BF61B00AEA8C2 /* Modal */,
+				658C534A247BF1BD00AEA8C2 /* Helper */,
 				658C5345247BEF5B00AEA8C2 /* Controller */,
 				658C5331247BEF2600AEA8C2 /* AppDelegate.swift */,
 				658C5333247BEF2600AEA8C2 /* SceneDelegate.swift */,
@@ -63,6 +85,7 @@
 				658C5348247BF0BA00AEA8C2 /* Main.storyboard */,
 				658C533C247BEF2900AEA8C2 /* LaunchScreen.storyboard */,
 				658C533F247BEF2900AEA8C2 /* Info.plist */,
+				658C534E247BF5F800AEA8C2 /* ServerJson.json */,
 			);
 			path = MultipleCellTableViewMVVM;
 			sourceTree = "<group>";
@@ -73,6 +96,42 @@
 				658C5346247BEF7500AEA8C2 /* HomeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		658C534A247BF1BD00AEA8C2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				658C534B247BF1DC00AEA8C2 /* Extension+.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		658C5350247BF61B00AEA8C2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				658C5351247BF65F00AEA8C2 /* ProfileModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		658C5353247C00E000AEA8C2 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				658C5354247C26D500AEA8C2 /* ProfileViewModalName.swift */,
+				658C5356247C313600AEA8C2 /* ProfileViewModalAbout.swift */,
+				658C5358247C31A500AEA8C2 /* ProfieViewModalEmail.swift */,
+				658C535A247C321800AEA8C2 /* ProfileViewModalAttribute.swift */,
+				658C535C247C32C600AEA8C2 /* ProfileViewModalFriends.swift */,
+				658C5360247C33B500AEA8C2 /* ProfileViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		658C5362247C392900AEA8C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658C534F247BF5F800AEA8C2 /* ServerJson.json in Resources */,
 				658C5349247BF0BA00AEA8C2 /* Main.storyboard in Resources */,
 				658C533E247BEF2900AEA8C2 /* LaunchScreen.storyboard in Resources */,
 				658C533B247BEF2900AEA8C2 /* Assets.xcassets in Resources */,
@@ -146,9 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658C535B247C321800AEA8C2 /* ProfileViewModalAttribute.swift in Sources */,
+				658C5352247BF65F00AEA8C2 /* ProfileModal.swift in Sources */,
 				658C5332247BEF2600AEA8C2 /* AppDelegate.swift in Sources */,
+				658C5359247C31A500AEA8C2 /* ProfieViewModalEmail.swift in Sources */,
 				658C5334247BEF2600AEA8C2 /* SceneDelegate.swift in Sources */,
 				658C5347247BEF7500AEA8C2 /* HomeViewController.swift in Sources */,
+				658C5355247C26D500AEA8C2 /* ProfileViewModalName.swift in Sources */,
+				658C5361247C33B500AEA8C2 /* ProfileViewModal.swift in Sources */,
+				658C534C247BF1DC00AEA8C2 /* Extension+.swift in Sources */,
+				658C535D247C32C600AEA8C2 /* ProfileViewModalFriends.swift in Sources */,
+				658C5357247C313600AEA8C2 /* ProfileViewModalAbout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

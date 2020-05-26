@@ -22,6 +22,12 @@
 		658C535B247C321800AEA8C2 /* ProfileViewModalAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C535A247C321800AEA8C2 /* ProfileViewModalAttribute.swift */; };
 		658C535D247C32C600AEA8C2 /* ProfileViewModalFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C535C247C32C600AEA8C2 /* ProfileViewModalFriends.swift */; };
 		658C5361247C33B500AEA8C2 /* ProfileViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5360247C33B500AEA8C2 /* ProfileViewModal.swift */; };
+		658C5364247C3A1200AEA8C2 /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5363247C3A1200AEA8C2 /* AboutTableViewCell.swift */; };
+		658C5366247C3BC300AEA8C2 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5365247C3BC300AEA8C2 /* EmailTableViewCell.swift */; };
+		658C5368247C3D4B00AEA8C2 /* NamePictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5367247C3D4B00AEA8C2 /* NamePictureTableViewCell.swift */; };
+		658C536A247C429300AEA8C2 /* AttributesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C5369247C429300AEA8C2 /* AttributesTableViewCell.swift */; };
+		658C536C247C567500AEA8C2 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C536B247C567500AEA8C2 /* FriendsTableViewCell.swift */; };
+		658C536E247C592600AEA8C2 /* iron.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 658C536D247C592600AEA8C2 /* iron.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,12 @@
 		658C535A247C321800AEA8C2 /* ProfileViewModalAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModalAttribute.swift; sourceTree = "<group>"; };
 		658C535C247C32C600AEA8C2 /* ProfileViewModalFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModalFriends.swift; sourceTree = "<group>"; };
 		658C5360247C33B500AEA8C2 /* ProfileViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModal.swift; sourceTree = "<group>"; };
+		658C5363247C3A1200AEA8C2 /* AboutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
+		658C5365247C3BC300AEA8C2 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		658C5367247C3D4B00AEA8C2 /* NamePictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamePictureTableViewCell.swift; sourceTree = "<group>"; };
+		658C5369247C429300AEA8C2 /* AttributesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesTableViewCell.swift; sourceTree = "<group>"; };
+		658C536B247C567500AEA8C2 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		658C536D247C592600AEA8C2 /* iron.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iron.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 				658C533C247BEF2900AEA8C2 /* LaunchScreen.storyboard */,
 				658C533F247BEF2900AEA8C2 /* Info.plist */,
 				658C534E247BF5F800AEA8C2 /* ServerJson.json */,
+				658C536D247C592600AEA8C2 /* iron.jpeg */,
 			);
 			path = MultipleCellTableViewMVVM;
 			sourceTree = "<group>";
@@ -130,6 +143,11 @@
 		658C5362247C392900AEA8C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				658C5363247C3A1200AEA8C2 /* AboutTableViewCell.swift */,
+				658C5365247C3BC300AEA8C2 /* EmailTableViewCell.swift */,
+				658C5367247C3D4B00AEA8C2 /* NamePictureTableViewCell.swift */,
+				658C5369247C429300AEA8C2 /* AttributesTableViewCell.swift */,
+				658C536B247C567500AEA8C2 /* FriendsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658C536E247C592600AEA8C2 /* iron.jpeg in Resources */,
 				658C534F247BF5F800AEA8C2 /* ServerJson.json in Resources */,
 				658C5349247BF0BA00AEA8C2 /* Main.storyboard in Resources */,
 				658C533E247BEF2900AEA8C2 /* LaunchScreen.storyboard in Resources */,
@@ -206,15 +225,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658C5366247C3BC300AEA8C2 /* EmailTableViewCell.swift in Sources */,
+				658C536A247C429300AEA8C2 /* AttributesTableViewCell.swift in Sources */,
 				658C535B247C321800AEA8C2 /* ProfileViewModalAttribute.swift in Sources */,
+				658C536C247C567500AEA8C2 /* FriendsTableViewCell.swift in Sources */,
 				658C5352247BF65F00AEA8C2 /* ProfileModal.swift in Sources */,
 				658C5332247BEF2600AEA8C2 /* AppDelegate.swift in Sources */,
 				658C5359247C31A500AEA8C2 /* ProfieViewModalEmail.swift in Sources */,
 				658C5334247BEF2600AEA8C2 /* SceneDelegate.swift in Sources */,
 				658C5347247BEF7500AEA8C2 /* HomeViewController.swift in Sources */,
+				658C5368247C3D4B00AEA8C2 /* NamePictureTableViewCell.swift in Sources */,
 				658C5355247C26D500AEA8C2 /* ProfileViewModalName.swift in Sources */,
 				658C5361247C33B500AEA8C2 /* ProfileViewModal.swift in Sources */,
 				658C534C247BF1DC00AEA8C2 /* Extension+.swift in Sources */,
+				658C5364247C3A1200AEA8C2 /* AboutTableViewCell.swift in Sources */,
 				658C535D247C32C600AEA8C2 /* ProfileViewModalFriends.swift in Sources */,
 				658C5357247C313600AEA8C2 /* ProfileViewModalAbout.swift in Sources */,
 			);

@@ -21,16 +21,16 @@ class Profile {
             if let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any], let body = json["data"] as? [String: Any] {
                 
                 self.fullName = body["fullName"] as? String
-                self.imageUrl = body[""] as? String
-                self.email = body[""] as? String
-                self.about = body[""] as? String
+                self.imageUrl = body["pictureUrl"] as? String
+                self.email = body["email"] as? String
+                self.about = body["about"] as? String
                 
                 
-                if let friends = body[""] as? [[String: Any]] {
+                if let friends = body["friends"] as? [[String: Any]] {
                     self.friends = friends.map { Friend(json: $0) }
                 }
                 
-                if let attributes = body[""] as? [[String: Any]] {
+                if let attributes = body["profileAttributes"] as? [[String: Any]] {
                     self.profileAttribute = attributes.map { Attribute(json: $0)}
                 }
             }
